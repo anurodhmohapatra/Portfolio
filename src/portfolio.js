@@ -294,7 +294,7 @@ const experience = {
           duration: "May 2020 - PRESENT",
           location: "Bengaluru, Karnataka",
           description:
-            "Defined and implement the customer's first performance dashboard in PowerBI.",
+            `Defined and implement the customer's first performance dashboard in PowerBI.`,
           color: "#0879bf",
         },
         {
@@ -305,7 +305,7 @@ const experience = {
           duration: "June 2019 - May 2020",
           location: "Bengaluru, Karnataka",
           description:
-            "Decreased manual performance testing time by 80% for the customer by introducing PowerShell scripts.",
+            `Decreased manual performance testing time by 80% for the customer by introducing PowerShell scripts.`,
           color: "#0879bf",
         },
       ],
