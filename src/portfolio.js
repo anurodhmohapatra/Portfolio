@@ -294,7 +294,8 @@ const experience = {
           duration: "May 2020 - PRESENT",
           location: "Bengaluru, Karnataka",
           description:
-            `Defined and implement the customer's first performance dashboard in PowerBI.`,
+            `- Defined and implement the customer's first performance dashboard in PowerBI.
+             - Created pipelines using PowerShell which push performance data to SQL server.`,
           color: "#0879bf",
         },
         {
