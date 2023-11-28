@@ -86,6 +86,7 @@ const skills = {
         "⚡ Proficient in orchestrating and automating data workflows with tools like Apache Airflow, Control-m and ADF",
         "⚡ Expertise in SQL databases, data modeling for performance, scalability, and integration with data warehousing platforms",
         "⚡ Proficient in using Pandas for data manipulation and ETL processes, with a focus on data warehousing practices"
+		],
       softwareSkills: [
         {
           skillName: "AWS",
