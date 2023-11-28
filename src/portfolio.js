@@ -263,7 +263,7 @@ const experience = {
           title: "Data Engineer",
           company: "Mu Sigma",
           company_url: "https://www.mu-sigma.com/",
-          logo_path: "",
+          logo_path: "MuSigma-logo-3",
           duration: "Aug 2022 - PRESENT",
           location: "Bengaluru, Karnataka",
           description:
