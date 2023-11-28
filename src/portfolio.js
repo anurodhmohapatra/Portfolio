@@ -263,7 +263,7 @@ const experience = {
           title: "Data Engineer",
           company: "Mu Sigma",
           company_url: "https://www.mu-sigma.com/",
-          logo_path: "",
+          logo_path: "MuSigma-logo-3.png",
           duration: "Aug 2022 - PRESENT",
           location: "Bengaluru, Karnataka",
           description:
@@ -276,7 +276,7 @@ const experience = {
           company: "L&T Technology Services",
           company_url: "https://www.ltts.com/",
           logo_path: "LTTS.png",
-          duration: "May 2020 - PRESENT",
+          duration: "May 2020 - Aug 2022",
           location: "Bengaluru, Karnataka",
           description:
             `- Defined and implement the customer's first performance dashboard in PowerBI.
@@ -293,7 +293,7 @@ const experience = {
           description:
             `Decreased manual performance testing time by 80% for the customer by introducing PowerShell scripts.`,
           color: "#0879bf",
-        },
+        }
       ],
     },
   ],
