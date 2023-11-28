@@ -9,11 +9,11 @@ const settings = {
 const seo = {
   title: "Anurodh's Portfolio",
   description:
-    "Hello! I'm Anurodh, a data scientist, an AI enthusiast, and a guy slightly obsessed for code quality. Also I'm a co-founder of nxtgenlearning.in. I’m currently available to work. If you have a project that you want to get started or think you need my help with something, then get in touch.",
+    "Hello! I'm Anurodh, a data engineer, an AI enthusiast, and a guy slightly obsessed for code quality. Also I'm a co-founder of nxtgenlearning.in. I’m currently available to work. If you have a project that you want to get started or think you need my help with something, then get in touch.",
   og: {
     title: "Anurodh Mohapatra Portfolio",
     type: "website",
-    url: "http://anurodhmohapatra.com/",
+    url: "https://anurodhmohapatra.netlify.app/",
   },
 };
 
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "AnurodhMohapatra",
   nickname: "a.m_patra",
   subTitle:
-    "Hello! I'm Anurodh, a data scientist, an AI enthusiast, and a guy slightly obsessed for code quality. Also I'm a co-founder of nxtgenlearning.in. I’m currently available to work. If you have a project that you want to get started or think you need my help with something, then get in touch.",
+    "Hello! I'm Anurodh, a data engineer, an AI enthusiast, and a guy slightly obsessed for code quality. Also I'm a co-founder of nxtgenlearning.in. I’m currently available to work. If you have a project that you want to get started or think you need my help with something, then get in touch.",
   resumeLink:
     "https://drive.google.com/file/d/11PDqPA3HbxaI_Neb_RHtr7OumBnmGGq9/view?usp=sharing",
   portfolio_repository: "https://github.com/anurodhmohapatra",
@@ -79,13 +79,54 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
+      {
+      title: "Data Engineer",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Proficient in orchestrating and automating data workflows with tools like Apache Airflow, Control-m and ADF",
+        "⚡ Expertise in SQL databases, data modeling for performance, scalability, and integration with data warehousing platforms",
+        "⚡ Proficient in using Pandas for data manipulation and ETL processes, with a focus on data warehousing practices"
+		],
+      softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:['fab', 'jenkins']",
+          style: {
+            color: "#326CE5",
+          },
+        }
+      ],
+    },
     {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Proficient in Python, developing data analysis scripts, machine learning models, and visualization tools",
+        "⚡ Expert in cleaning and preprocessing raw data using Pandas and NumPy, handling missing values and outliers effectively",
+        "⚡ Conducted exploratory data analysis with Matplotlib and Seaborn, uncovering patterns and trends to inform decision-making",
+		"⚡ Applied machine learning algorithms, including decision trees and neural networks, for real-world problem-solving, such as predicting customer churn",
+		"⚡ Effectively communicated complex technical findings to non-technical stakeholders through clear data visualizations and reports, facilitating understanding and decision-making",
       ],
       softwareSkills: [
         {
@@ -119,75 +160,7 @@ const skills = {
           },
         },
       ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
+    }
   ],
 };
 
@@ -212,7 +185,7 @@ const degrees = {
       subtitle: "Master of Science in Data Science",
       logo_path: "LJMU.png",
       alt_name: "LJMU",
-      duration: "2021 - Present",
+      duration: "2021 - 2022",
       descriptions: [
         "⚡ ####",
         "⚡ ####",
@@ -286,6 +259,18 @@ const experience = {
     {
       title: "Work",
       experiences: [
+	    {
+          title: "Data Engineer",
+          company: "Mu Sigma",
+          company_url: "https://www.mu-sigma.com/",
+          logo_path: "",
+          duration: "Aug 2022 - PRESENT",
+          location: "Bengaluru, Karnataka",
+          description:
+            `- Designed and developed a Data Engineering framework for the entire organization.
+             - Collaborated closely with data modellers to assist in data modelling based on the Data Vault methodology.`,
+          color: "#0879bf",
+        },
         {
           title: "Engineer",
           company: "L&T Technology Services",
@@ -318,7 +303,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Engineer and Data Science projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -340,9 +325,9 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "#7, 4th Floor,1st Main Road, Mattadahalli, T.A.-RT Nagar, Dist.-Bengaluru, Karnataka - 560032",
+      "RT Nagar, Dist.-Bengaluru, Karnataka - 560032",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/YrbW5TdetYdNiYLv7",
+    location_map_link: "https://maps.app.goo.gl/L5cRnsVUw6p1uKxu9",
   },
   phoneSection: {
     title: "Phone Number",
