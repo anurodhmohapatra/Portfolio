@@ -253,7 +253,7 @@ const experience = {
   title: "Experience",
   subtitle: "",
   description:
-    "I am currently an Engineer at LTTS having 1+ years of experience in analytics where I have defined and implemented the customer's first application performance dashboard.",
+    "Data science practitioner with 3 years of industry experience and a unique blend of software engineering, machine learning, and data analysis expertise.",
   header_image_path: "experience.svg",
   sections: [
     {
