@@ -114,20 +114,6 @@ const skills = {
           style: {
             color: "#326CE5",
           },
-        },
-		{
-          skillName: "DBT",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-	    {
-          skillName: "Airflow",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        }
         }
       ],
     },
